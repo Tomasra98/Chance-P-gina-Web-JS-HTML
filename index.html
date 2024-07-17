@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Chance Goose</title>
+</head>
+    <body>
+        <center> <fieldset> <h1 style="color:black;"> Chance Goose</h1> </center>  </fieldset>
+
+        <br>
+        <br>
+        
+        <center> 
+            <label style="color:black;">
+            <input type="radio" id="opcion"  value="A"  checked>
+            Loteria
+            <input style="color:black;" type="radio" id="opcion"  value="B" checked >
+            Loteria Combinada
+            </label>
+        </center> 
+
+        <br>
+        <br>
+
+        <center> 
+            <label style="color:black;">Ingresar Tres Números De Tres Dígitos</label>
+            <br>
+            <br>
+            <input type="number" id="numeroIngresado" min="100" max="999">
+
+        </center>
+
+        <br>
+        <br>
+
+        <center>     
+            <label style="color:black;">Ingresar Apuesta</label>
+            <br>
+            <br>
+            <input type="number" id="apuesta" value="">
+            
+        
+        </center>
+
+        <br>
+
+
+
+        <center> <button onclick= "llamado()" >Realizado</button>  
+
+            <strong><p id="numerosGenerados" style="color:black;"></p>  </strong>
+            
+            <strong> <div id="resultado" style="color:green;"> </div> </strong>
+            <strong> <div id="resultado1" style="color: red;"> </div> </strong>
+
+        </center>
+
+
+        
+    </body>     
+
+</html>
